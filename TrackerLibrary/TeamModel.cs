@@ -8,8 +8,13 @@ namespace TrackerLibrary
 {
     public class TeamModel
     {
+        /// <summary>
+        /// Represents the Team name.
+        /// </summary>
         public string TeamName { get; set; }
-
+        /// <summary>
+        /// Represents the Members of the team.
+        /// </summary>
         public List<PersonModel> TeamMembers { get; set; } = new();
     }
 }
