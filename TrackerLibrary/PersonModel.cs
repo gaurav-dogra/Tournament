@@ -1,5 +1,8 @@
 ﻿namespace TrackerLibrary
 {
+    /// <summary>
+    /// Represents one person.
+    /// </summary>
     public class PersonModel
     {
         /// <summary>
