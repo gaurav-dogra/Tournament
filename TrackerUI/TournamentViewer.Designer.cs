@@ -36,10 +36,10 @@
             this.matchupListBox = new System.Windows.Forms.ListBox();
             this.teamTwoLabel = new System.Windows.Forms.Label();
             this.teamTwoScoreLabel = new System.Windows.Forms.Label();
-            this.teamTwoScoreTextBox = new System.Windows.Forms.TextBox();
+            this.teamTwoScoreValue = new System.Windows.Forms.TextBox();
             this.vesusLabel = new System.Windows.Forms.Label();
             this.tournamentLabel2 = new System.Windows.Forms.Label();
-            this.teamOneScoreTextBox = new System.Windows.Forms.TextBox();
+            this.teamOneScoreValue = new System.Windows.Forms.TextBox();
             this.teamOneScoreLabel = new System.Windows.Forms.Label();
             this.scoreButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -132,13 +132,13 @@
             this.teamTwoScoreLabel.Text = "Score";
             this.teamTwoScoreLabel.Click += new System.EventHandler(this.label1_Click);
             // 
-            // teamTwoScoreTextBox
+            // teamTwoScoreValue
             // 
-            this.teamTwoScoreTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.teamTwoScoreTextBox.Location = new System.Drawing.Point(551, 503);
-            this.teamTwoScoreTextBox.Name = "teamTwoScoreTextBox";
-            this.teamTwoScoreTextBox.Size = new System.Drawing.Size(100, 23);
-            this.teamTwoScoreTextBox.TabIndex = 4;
+            this.teamTwoScoreValue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.teamTwoScoreValue.Location = new System.Drawing.Point(551, 503);
+            this.teamTwoScoreValue.Name = "teamTwoScoreValue";
+            this.teamTwoScoreValue.Size = new System.Drawing.Size(100, 23);
+            this.teamTwoScoreValue.TabIndex = 4;
             // 
             // vesusLabel
             // 
@@ -164,13 +164,13 @@
             this.tournamentLabel2.Text = "<none>";
             this.tournamentLabel2.Click += new System.EventHandler(this.label1_Click);
             // 
-            // teamOneScoreTextBox
+            // teamOneScoreValue
             // 
-            this.teamOneScoreTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.teamOneScoreTextBox.Location = new System.Drawing.Point(551, 290);
-            this.teamOneScoreTextBox.Name = "teamOneScoreTextBox";
-            this.teamOneScoreTextBox.Size = new System.Drawing.Size(100, 23);
-            this.teamOneScoreTextBox.TabIndex = 4;
+            this.teamOneScoreValue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.teamOneScoreValue.Location = new System.Drawing.Point(551, 290);
+            this.teamOneScoreValue.Name = "teamOneScoreValue";
+            this.teamOneScoreValue.Size = new System.Drawing.Size(100, 23);
+            this.teamOneScoreValue.TabIndex = 4;
             // 
             // teamOneScoreLabel
             // 
@@ -206,8 +206,8 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1121, 648);
             this.Controls.Add(this.scoreButton);
-            this.Controls.Add(this.teamTwoScoreTextBox);
-            this.Controls.Add(this.teamOneScoreTextBox);
+            this.Controls.Add(this.teamTwoScoreValue);
+            this.Controls.Add(this.teamOneScoreValue);
             this.Controls.Add(this.matchupListBox);
             this.Controls.Add(this.unplayedOnlyCheckBox);
             this.Controls.Add(this.roundComboBox);
@@ -236,10 +236,10 @@
         private ListBox matchupListBox;
         private Label teamTwoLabel;
         private Label teamTwoScoreLabel;
-        private TextBox teamTwoScoreTextBox;
+        private TextBox teamTwoScoreValue;
         private Label vesusLabel;
         private Label tournamentLabel2;
-        private TextBox teamOneScoreTextBox;
+        private TextBox teamOneScoreValue;
         private Label teamOneScoreLabel;
         private Button scoreButton;
     }
