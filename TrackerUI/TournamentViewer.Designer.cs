@@ -34,13 +34,13 @@
             this.roundComboBox = new System.Windows.Forms.ComboBox();
             this.unplayedOnlyCheckBox = new System.Windows.Forms.CheckBox();
             this.matchupListBox = new System.Windows.Forms.ListBox();
-            this.teamOneScoreLabel = new System.Windows.Forms.Label();
-            this.teamOneScoreTextBox = new System.Windows.Forms.TextBox();
             this.teamTwoLabel = new System.Windows.Forms.Label();
             this.teamTwoScoreLabel = new System.Windows.Forms.Label();
             this.teamTwoScoreTextBox = new System.Windows.Forms.TextBox();
             this.vesusLabel = new System.Windows.Forms.Label();
             this.tournamentLabel2 = new System.Windows.Forms.Label();
+            this.teamOneScoreTextBox = new System.Windows.Forms.TextBox();
+            this.teamOneScoreLabel = new System.Windows.Forms.Label();
             this.scoreButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -108,26 +108,6 @@
             this.matchupListBox.Size = new System.Drawing.Size(266, 304);
             this.matchupListBox.TabIndex = 3;
             // 
-            // teamOneScoreLabel
-            // 
-            this.teamOneScoreLabel.AutoSize = true;
-            this.teamOneScoreLabel.Font = new System.Drawing.Font("Segoe UI Light", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.teamOneScoreLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.teamOneScoreLabel.Location = new System.Drawing.Point(472, 283);
-            this.teamOneScoreLabel.Name = "teamOneScoreLabel";
-            this.teamOneScoreLabel.Size = new System.Drawing.Size(62, 30);
-            this.teamOneScoreLabel.TabIndex = 0;
-            this.teamOneScoreLabel.Text = "Score";
-            this.teamOneScoreLabel.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // teamOneScoreTextBox
-            // 
-            this.teamOneScoreTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.teamOneScoreTextBox.Location = new System.Drawing.Point(551, 290);
-            this.teamOneScoreTextBox.Name = "teamOneScoreTextBox";
-            this.teamOneScoreTextBox.Size = new System.Drawing.Size(100, 23);
-            this.teamOneScoreTextBox.TabIndex = 4;
-            // 
             // teamTwoLabel
             // 
             this.teamTwoLabel.AutoSize = true;
@@ -184,6 +164,26 @@
             this.tournamentLabel2.Text = "<none>";
             this.tournamentLabel2.Click += new System.EventHandler(this.label1_Click);
             // 
+            // teamOneScoreTextBox
+            // 
+            this.teamOneScoreTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.teamOneScoreTextBox.Location = new System.Drawing.Point(551, 290);
+            this.teamOneScoreTextBox.Name = "teamOneScoreTextBox";
+            this.teamOneScoreTextBox.Size = new System.Drawing.Size(100, 23);
+            this.teamOneScoreTextBox.TabIndex = 4;
+            // 
+            // teamOneScoreLabel
+            // 
+            this.teamOneScoreLabel.AutoSize = true;
+            this.teamOneScoreLabel.Font = new System.Drawing.Font("Segoe UI Light", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.teamOneScoreLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
+            this.teamOneScoreLabel.Location = new System.Drawing.Point(472, 283);
+            this.teamOneScoreLabel.Name = "teamOneScoreLabel";
+            this.teamOneScoreLabel.Size = new System.Drawing.Size(62, 30);
+            this.teamOneScoreLabel.TabIndex = 0;
+            this.teamOneScoreLabel.Text = "Score";
+            this.teamOneScoreLabel.Click += new System.EventHandler(this.label1_Click);
+            // 
             // scoreButton
             // 
             this.scoreButton.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
@@ -234,13 +234,13 @@
         private ComboBox roundComboBox;
         private CheckBox unplayedOnlyCheckBox;
         private ListBox matchupListBox;
-        private Label teamOneScoreLabel;
-        private TextBox teamOneScoreTextBox;
         private Label teamTwoLabel;
         private Label teamTwoScoreLabel;
         private TextBox teamTwoScoreTextBox;
         private Label vesusLabel;
         private Label tournamentLabel2;
+        private TextBox teamOneScoreTextBox;
+        private Label teamOneScoreLabel;
         private Button scoreButton;
     }
 }
